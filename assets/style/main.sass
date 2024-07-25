@@ -3,22 +3,26 @@
 @tailwind utilities
 
 *
-    @apply border border-blue-500
+    // @apply border border-blue-500
+
+header
+    @apply h-[5dvh] text-center pt-1
+
 
 h3
     @apply py-4 font-bold
 
-.viewport_container
+
+// Classes
+.viewport_container // = main
     @apply relative
-    @apply h-screen w-screen 
+    @apply h-[95dvh] w-screen 
     @apply flex justify-center items-center
 
-.title
-    @apply absolute top-0
-    @apply z-10
+    .title
+        @apply absolute top-0
+        @apply z-10 text-white
 
-.scene_container
-    @apply absolute
-    // @apply w-full h-full
-    @apply w-[850px] h-[550px]
-    // @apply bg-pink-50
+    .scene_container
+        @apply absolute
+        @apply w-full h-full
