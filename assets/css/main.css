@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+header {
+  @apply h-[5dvh] text-center pt-1;
+}
+
+h3 {
+  @apply py-4 font-bold;
+}
+
+.viewport_container {
+  @apply relative;
+  @apply h-[95dvh] w-screen;
+  @apply flex justify-center items-center;
+}
+.viewport_container .title {
+  @apply absolute top-0;
+  @apply z-10 text-white;
+}
+.viewport_container .scene_container {
+  @apply absolute;
+  @apply w-full h-full;
+  @apply bg-cyan-800;
+}/*# sourceMappingURL=main.css.map */
